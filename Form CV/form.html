@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>CV Form</h2>
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="José"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Martínez"><br><br>
+        <label for="bdate">Fecha de nacimiento:</label><br>
+        <input type="date" id="bdate" name="bdate"><br><br>
+        <label for="ocu">Ocupación:</label><br>
+        <input type="text" id="ocu" name="ocu" value="Trabajador Social"><br><br>
+        <label for="phone">Teléfono:</label><br>
+        <input type="text" id="phone" name="phone" value="999999999"><br>
+        <label for="mail">Correo:</label><br>
+        <input type="text" id="mail" name="mail" value="jose.martinez"><br><br>
+        <label for="nacion">Nacionalidad:</label><br>
+        <select id="nacion" name="nacion">
+            <option value="vacio"></option>
+            <option value="esp">Española</option>
+            <option value="mex">Mexicana</option>
+            <option value="per">Peruana</option>
+            <option value="chi">Chilena</option>
+            <option value="bol">Boliviana</option>
+            <option value="col">Colombiana</option>
+            </select><br><br>
+            
+        Nivel de Inglés: <br>
+        
+        <input type="radio" id="bas" name="niv" value="bas">
+        <label for="bas">Básico:</label><br>
+        <input type="radio" id="int" name="niv" value="int">
+        <label for="int">Intermedio:</label><br>
+        <input type="radio" id="ava" name="niv" value="ava">
+        <label for="ava">Avanzado:</label><br><br>
+        <label for="lenguajes">Lenguaje de Programación:</label><br><br>
+        <select id="lenguajes" name="lenguajes[]" multiple>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="php">PHP</option>
+            <option value="java">Java</option>
+            <option value="ruby">Ruby</option>
+        </select><br>
+
+        <label for="aptitudes">Aptitudes:</label><br><br>
+        <input type="text" id="aptitudes" name="aptitudes" list="habilidades" required>
+        <datalist id="habilidades">
+            <option value="Trabajo en equipo">
+            <option value="Comunicación">
+            <option value="Resolución de problemas">
+            <option value="Creatividad">
+            <option value="Liderazgo">
+        </datalist><br><br>
+
+        <label for="perfil">Perfil:</label><br><br>
+        <textarea id="perfil" name="perfil" rows="5" cols="40" required></textarea><br>
+
+
+        <input type="submit" value="Submit">
+        
+      </form>
+
+
+</body>
+</html>
