@@ -1,2 +1,2 @@
 # DesarrolloBasadoEnPlataformas
-Curso Basado
+Curso DBP
