@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cv.CvPage">
+    <ContentPage.Content>
+        <StackLayout
+            Padding="20"
+            BackgroundColor="Indigo">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Label x:Name="nombre" FontSize="Title"/>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Edad: "  FontSize="Large"/>
+                <Label x:Name="edad"  FontSize="Large"/>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Ocupación: "  FontSize="Large"/>
+                <Label x:Name="ocupa" FontSize="Large"/>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Dirección: "  FontSize="Large"/>
+                <Label x:Name="dire" FontSize="Large"/>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

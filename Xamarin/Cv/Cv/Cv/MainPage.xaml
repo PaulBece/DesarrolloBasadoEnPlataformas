@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cv.MainPage">
+
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Name:" />
+            <Entry Placeholder="Enter your name" x:Name="nombre"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Age:" />
+            <Entry Placeholder="Enter your age" x:Name="edad"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Occupation:" />
+            <Entry Placeholder="Enter your occupation" x:Name="ocupa"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Address:" />
+            <Entry Placeholder="Enter your address" x:Name="dire"/>
+        </StackLayout>
+        <Button Text="Generate CV" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
